@@ -23,7 +23,7 @@ public class ApplicationConfigInit {
 
 
         Twilio.init(applicationConfigLoad.getAccountSid(),
-                    applicationConfigLoad.getAuthToken());
-        logger.info("Properties Loaded ",applicationConfigLoad.getAccountSid());
+                applicationConfigLoad.getAuthToken());
+        logger.info("Properties Loaded {}",applicationConfigLoad.getAccountSid());
     }
 }

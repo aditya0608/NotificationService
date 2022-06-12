@@ -1,4 +1,4 @@
-package com.aditya.notificationservice.service.User;
+package com.aditya.notificationservice.service.user;
 
 import com.aditya.notificationservice.dto.UserDTO;
 import com.aditya.notificationservice.exceptions.ChannelNotFoundException;

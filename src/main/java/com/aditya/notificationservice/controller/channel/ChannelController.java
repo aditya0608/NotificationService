@@ -4,8 +4,7 @@ package com.aditya.notificationservice.controller.channel;
 import com.aditya.notificationservice.dto.ChannelDTO;
 import com.aditya.notificationservice.exceptions.ChannelNotFoundException;
 import com.aditya.notificationservice.models.ChannelType;
-import com.aditya.notificationservice.repository.ChannelRepository;
-import com.aditya.notificationservice.service.ChannelService;
+import com.aditya.notificationservice.service.channel.ChannelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

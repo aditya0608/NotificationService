@@ -1,4 +1,4 @@
-package com.aditya.notificationservice.service;
+package com.aditya.notificationservice.service.channel;
 
 
 import com.aditya.notificationservice.dto.ChannelDTO;
@@ -31,6 +31,6 @@ public class ChannelService {
         }
         else
             throw new ChannelNotFoundException("Channel desc :" + channelDTO.getChannelDesc() + "is not present in the database");
-    return channelType;
+        return channelType;
     }
 }

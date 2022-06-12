@@ -1,0 +1,17 @@
+whatsapp:
+  account_sid: {account_sid}
+  auth_token: {auth_toke}
+  from_number: {trial_number}
+  to_number: {to_number}
+
+spring:
+  datasource:
+    username: {username}
+    password: {pd}
+    url: jdbc:mysql://localhost:{portNumber}/{databaseName}
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    database: mysql
