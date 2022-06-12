@@ -1,0 +1,17 @@
+whatsapp:
+ account_sid: AC2d553e027b73c45d8b1f9482d502dd78
+ auth_token: 2d5f1254e1dfc49390ebfbbacb55d465
+ from_number: +19378588406
+ to_number: 9582088357
+
+spring:
+ datasource:
+  username: root
+  password: root
+  url: jdbc:mysql://localhost:3306/NOTICATION
+ jpa:
+  show-sql: true
+  generate-ddl: true
+  hibernate:
+   ddl-auto: update
+  database: mysql
